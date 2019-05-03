@@ -1,0 +1,32 @@
+:root {
+    --color-header-bg: #ecf0f1;
+    --padding-header: 16px;
+    --font-size-menu-item: 24px;
+    --padding-menu-item: 0 16px;
+}
+
+.root {
+    display: flex;
+    align-items: baseline;
+    background-color: var(--color-header-bg);
+    padding: var(--padding-header);
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.trailing {
+}
+
+.menuItems {
+    display: flex;
+    align-items: baseline;
+}
+
+.menuItem {
+    font-size: var(--font-size-menu-item);
+    padding: var(--padding-menu-item);
+}
