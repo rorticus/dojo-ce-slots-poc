@@ -28,3 +28,5 @@ This HTML will provide the following properties to the `MyTabController` widget,
   ]
 }
 ```
+
+The relevant pieces of this project are `src/widgets/Header.ts` and `elements.html`.
